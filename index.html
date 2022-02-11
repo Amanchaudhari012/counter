@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>counter</title>
+</head>
+<body>
+    <style>
+        .movement{
+            width: 500px;
+            width: 300px;
+            border: 10px solid rgb(0, 255, 100);
+        }
+
+        .bubble div{
+            margin: 30px;
+            border: 5px solid green;
+        }
+
+    </style>
+    <main>
+        <h1>0</h1>
+        <button class="inc">increment</button>
+        <button class="dnc">decrement</button>
+        <button class="reset">reset</button>
+
+        <section >
+            <div onmouseover="alert('Hi I am Aman')">Double click</div>
+            <input type="submit" value="click me">
+        </section>
+
+        <section class="movement">
+            <h1>Mouse move</h1>
+            <ul>
+                <li class="first">444</li>
+                <li class="second">845</li>
+                <li class="third">323</li>
+                <li class="fourth">552</li>
+            </ul>
+        </section>
+
+        <section class="bubble">
+            <div onclick="alert('d1')"> D1
+                <div onclick="alert('d2')"> D2
+                    <div onclick="alert('d3')"> D3
+                        <div onclick="alert('d4')"> D4</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="./index.js"></script>
+    <script>
+        function upToFour(event){
+            console.log(event.target)
+        }
+    </script>
+
+</body>
+</html>
