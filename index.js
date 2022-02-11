@@ -13,10 +13,10 @@ let reset = document.querySelector(".reset");
 
 // selecting mouse movement
 let movement = document.querySelector(".movement")
-let first = document.querySelector(".line1")
-let second = document.querySelector(".line2")
-let third = document.querySelector(".line3")
-let fourth = document.querySelector(".line4")
+let line1 = document.querySelector(".line1")
+let line2 = document.querySelector(".line2")
+let line3 = document.querySelector(".line3")
+let line4 = document.querySelector(".line4")
 let input = document.querySelector("input")
 
 let count = 0;
