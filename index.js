@@ -41,10 +41,10 @@ function resetHandler(){
 }
 
 function mouseMoveHandler(){
-    first.innerText = event.screenX;
-    second.innerText = event.screenY;
-    third.innerText = event.clientX;
-    fourth.innerText = event.clientY;
+    line1.innerText = event.screenX;
+    line2.innerText = event.screenY;
+    line3.innerText = event.clientX;
+    line4.innerText = event.clientY;
 }
 
 inc.addEventListener("click", incHandler);
