@@ -13,16 +13,16 @@ let reset = document.querySelector(".reset");
 
 // selecting mouse movement
 let movement = document.querySelector(".movement")
-let first = document.querySelector(".first")
-let second = document.querySelector(".second")
-let third = document.querySelector(".third")
-let fourth = document.querySelector(".fourth")
+let first = document.querySelector(".line1")
+let second = document.querySelector(".line2")
+let third = document.querySelector(".line3")
+let fourth = document.querySelector(".line4")
 let input = document.querySelector("input")
 
 let count = 0;
 input.onclick = function(event){
     console.log(event.target.value)
-    event.target.value = "Jaydeep"
+    event.target.value = "AMAN"
     event.target.style.backgroundcolor = 'yellow';
 } 
 function incHandler(){
